@@ -1,0 +1,19 @@
+.head{
+    display: flex;
+    /* justify-content: end; */
+    background-color: gold;
+    width: 100vw;
+    height: 5vw;
+}
+
+ .box {
+     display: flex;
+     position: relative;
+     
+ }
+
+
+.box{
+    width: 100vw;
+    max-width:89ch;
+} 
