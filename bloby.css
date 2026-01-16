@@ -1,0 +1,288 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+
+.center{
+  display: flex;
+  gap: 5rem;  
+  font-size: 20px;
+  font-weight: bold;
+   margin-left: auto;
+}
+
+.center a {
+  text-decoration: none;
+  color: gray;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 20px;
+}
+
+
+.logos{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+
+
+.social-icons{
+  display: flex;
+  gap: 1rem;
+  color: black;
+  font-size: 20px;
+}
+
+.fa-football{
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  transform: rotate(135deg);
+  color: red;
+}
+.atag4{
+  margin-right: 10px;
+}
+
+
+.login{
+  border: 0;
+  height: 20px;
+  background-color: white;
+}
+
+
+
+.center{
+  color: red;
+  transition: color 0.3s;
+}
+
+.center a:hover{
+  color: red;
+}
+
+
+
+
+/* hederis qvemot */
+
+
+
+
+.edit{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.firstbackground{
+    background-image: url(./blogphotos/blogfirst.avif) ;
+    height: 20rem;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.line {
+    border: 1px orangered solid;
+    width: 77px; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 57rem;
+}
+
+.latest {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 5rem;
+}
+
+.news{
+    color: orangered;
+}
+
+
+.paragraph{
+    font-weight: bolder;
+    font-style: normal;
+    padding-top: 1rem;
+}
+
+/* mesame nawili */
+
+.iconebi {
+ display: flex;
+ gap: 2rem;
+ margin-left: 35rem;
+ justify-content: start;
+}
+
+
+.marign{
+    gap: 2rem;
+}
+
+.pirveli a:hover {
+ color: red;
+  
+}
+
+
+
+
+.fa-solid{
+    text-decoration: none;
+    color: black;
+    margin-left: 15rem;
+}
+
+                                                                      
+
+.pirveli{
+    text-decoration: none;
+    color: black;
+
+}
+
+.meore{
+    text-decoration: none;
+    color: black;
+
+}
+
+.mesame{
+    text-decoration: none;
+    color: black;
+
+}
+
+.meoTxe{
+    text-decoration: none;
+
+    color: black;
+}
+
+.mexute{
+    text-decoration: none;
+
+    color: black;
+}
+
+
+.fa-solid:hover{
+    color: rgb(255, 0, 0);
+}
+
+                                                                      
+
+.pirveli:hover{
+    color: rgb(255, 0, 0);
+}
+
+.meore:hover{
+    color: rgb(255, 0, 0);
+}
+
+.mesame:hover{
+    color: rgb(255, 0, 0);
+}
+
+.meoTxe:hover{
+    color: rgb(255, 0, 0);
+}
+
+.mexute:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+/* cardebi */
+
+
+.card1{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+}
+
+
+
+.frist213{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+.9-div-card{}
