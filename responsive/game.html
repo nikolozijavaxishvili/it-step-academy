@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Game Recaps - Crows Nest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            font-size: 30px;
+            position: relative;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 20px;
+            z-index: 1001;
+        }
+
+        .fa-football {
+            font-size: 30px;
+            transform: rotate(135deg);
+            color: red;
+        }
+
+        .center {
+            display: flex;
+            gap: 5rem;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: auto;
+        }
+
+        .center a {
+            text-decoration: none;
+            color: gray;
+            transition: color 0.3s;
+        }
+
+        .center a:hover {
+            color: red;
+        }
+
+        .logos {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            color: black;
+            font-size: 20px;
+        }
+
+        .atag4 {
+            margin-right: 10px;
+        }
+
+        .login {
+            border: 0;
+            height: 20px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .burger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .burger-menu span {
+            width: 25px;
+            height: 3px;
+            background-color: black;
+            transition: all 0.3s;
+        }
+
+        .burger-menu.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .burger-menu.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .burger-menu.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -6px);
+        }
+
+        .firstbackground {
+            background-image: url(./blogphotos/blogfirst.avif);
+            height: 20rem;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .edit {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .line {
+            border: 1px orangered solid;
+            width: 77px;
+            margin: 0 auto;
+        }
+
+        .latest {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            padding-top: 5rem;
+        }
+
+        .news {
+            color: orangered;
+        }
+
+        .paragraph {
+            font-weight: bolder;
+            font-style: normal;
+            padding-top: 1rem;
+        }
+
+        .iconebi {
+            display: flex;
+            font-size: 20px;
+            gap: 2em;
+            justify-content: center;
+            padding-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .pirveli, .meore, .mesame, .meoTxe, .mexute {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .fa-solid {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        .pirveli:hover, .meore:hover, .mesame:hover, .meoTxe:hover, .mexute:hover, .fa-solid:hover {
+            color: rgb(255, 0, 0);
+        }
+
+        .div-card11 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 5rem auto;
+            padding: 0 2rem;
+        }
+
+        .card11, .card22, .card33, .card44 {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .vardy11 {
+            max-width: 100%;
+        }
+
+        .frist213, .frist213zz, .frist213pp, .frist213hh {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .suratisqvemot {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1rem 0;
+        }
+
+        .D12, .b12, .A12, .C12 {
+            width: 100%;
+        }
+
+        .avtorisinfo {
+            margin-bottom: 1rem;
+        }
+
+        .crows-win123 {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 28px;
+            margin: 1rem 0;
+        }
+
+        .asd21 {
+            gap: 5px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid black;
+            margin-top: 1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: gray;
+        }
+
+        .heartys {
+            color: red;
+        }
+
+        /* Tablet View */
+        @media (max-width: 1024px) {
+            .header {
+                font-size: 24px;
+                padding: 1rem;
+            }
+
+            .center {
+                gap: 3rem;
+            }
+
+            .latest {
+                font-size: 40px;
+            }
+
+            .div-card11 {
+                margin: 3rem auto;
+            }
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .burger-menu {
+                display: flex;
+            }
+
+            .center {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                height: 100vh;
+                width: 70%;
+                background-color: white;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                transition: right 0.3s ease;
+                z-index: 1000;
+                box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .center.active {
+                right: 0;
+            }
+
+            .logos {
+                gap: 0.5rem;
+            }
+
+            .social-icons {
+                gap: 0.5rem;
+                font-size: 16px;
+            }
+
+            .login {
+                font-size: 12px;
+            }
+
+            .firstbackground {
+                height: 15rem;
+            }
+
+            .latest {
+                font-size: 32px;
+                padding-top: 3rem;
+            }
+
+            .paragraph {
+                font-size: 14px;
+                padding: 1rem;
+            }
+
+            .iconebi {
+                gap: 1rem;
+                padding: 2rem 1rem;
+                font-size: 16px;
+            }
+
+            .pirveli, .meore, .mesame, .meoTxe, .mexute {
+                font-size: 16px;
+            }
+
+            .div-card11 {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+
+            .crows-win123 {
+                font-size: 22px;
+            }
+        }
+
+        /* Small Mobile View */
+        @media (max-width: 480px) {
+            .header {
+                padding: 0.5rem 1rem;
+                font-size: 20px;
+            }
+
+            .logo {
+                font-size: 16px;
+            }
+
+            .fa-football {
+                font-size: 24px;
+            }
+
+            .center {
+                width: 80%;
+            }
+
+            .social-icons {
+                font-size: 14px;
+            }
+
+            .firstbackground {
+                height: 12rem;
+            }
+
+            .latest {
+                font-size: 24px;
+                padding-top: 2rem;
+            }
+
+            .paragraph {
+                font-size: 12px;
+            }
+
+            .iconebi {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .crows-win123 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <i class="fa-solid fa-football"></i>
+            <span class="crows">CROWS NEST</span>
+        </div>
+
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="center" id="navMenu">
+            <a href="/index.html" class="atag1">HOME</a>
+            <a href="blog.html" class="atag2">BLOG</a>
+            <a href="/schedule" class="atag3">SCHEDULE</a>
+            <a href="/about" class="atag4">ABOUT</a>
+        </nav>
+
+        <div class="logos">
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <button class="login">LOG IN</button>
+        </div>
+    </header>
+
+    <div class="firstbackground">
+        <div class="edit">
+            <h1 class="latest">LATEST <span class="news">NEWS</span></h1>
+            <div class="line"></div>
+            <p class="paragraph">I'm a paragraph. Click here to add your own text and edit me.<br>Let your users get to know you.</p>
+        </div>
+    </div>
+
+    <div class="iconebi">
+        <a class="pirveli" href="./blog.html">All Posts</a>
+        <a class="meore" href="./feature.html">Featured</a>
+        <a class="mesame" href="./editorials.html">Editorials</a>
+        <a class="meoTxe" href="./rumors.html">Rumors</a>
+        <a class="mexute" href="./game-recaps.html">Game Recaps</a>
+        <a href="meqvse" class="fa-solid fa-magnifying-glass"></a>
+    </div>
+
+    <div class="div-card11">
+        <div class="card11 vardy11 as10P">
+            <div class="surati nmnmnm"><img class="frist213" src="./blogphotos/firstcomenty.avif" alt=""></div>
+            <div class="suratisqvemot D12">
+                <div class="avtorisinfo">
+                    <i class="fa-solid fa-circle-user"></i>
+                    Admin <br> Mar 22, 2023 <span class="asd21"><span style="color: black;">•</span>1 min read</span>
+                </div>
+                <h2 class="crows-win123">Utah Fades After Early Lead;<br> Crows Win 41 - 31</h2>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                <div class="footer">
+                    <div class="stats">
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="likes1">
+                        <span class="likeysd">15</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card22 vardy11 xzc312">
+            <div class="surati"><img class="frist213zz" src="./blogphotos/card N4.avif" alt=""></div>
+            <div class="suratisqvemot b12">
+                <div class="avtorisinfo">
+                    <i class="fa-solid fa-circle-user"></i>
+                    Admin <br> Mar 22, 2023 <span class="asd21"><span style="color: black;">•</span>1 min read</span>
+                </div>
+                <h2 class="crows-win123">Crows Fall to Boston in Overtime 13 - 6</h2>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                <div class="footer">
+                    <div class="stats">
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="likes1">
+                        <span class="likeysd">15</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card33 vardy11 SD21">
+            <div class="surati"><img class="frist213pp" src="./blogphotos/card  N8.avif" alt=""></div>
+            <div class="suratisqvemot A12">
+                <div class="avtorisinfo">
+                    <i class="fa-solid fa-circle-user"></i>
+                    Admin <br> Mar 22, 2023 <span class="asd21"><span style="color: black;">•</span>1 min read</span>
+                </div>
+                <h2 class="crows-win123">Controversial Call Leads to Crows Loss to Portland</h2>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                <div class="footer">
+                    <div class="stats">
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="likes1">
+                        <span class="likeysd">15</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card44 vardy11">
+            <div class="surati"><img class="frist213hh" src="./blogphotos/card N5.avif" alt=""></div>
+            <div class="suratisqvemot C12">
+                <div class="avtorisinfo">
+                    <i class="fa-solid fa-circle-user"></i>
+                    Admin <br> Mar 22, 2023 <span class="asd21"><span style="color: black;">•</span>1 min read</span>
+                </div>
+                <h2 class="crows-win123">Crows Crush Top Ranked San Antonio 34 - 7</h2>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                <div class="footer">
+                    <div class="stats">
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="likes1">
+                        <span class="likeysd">15</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
