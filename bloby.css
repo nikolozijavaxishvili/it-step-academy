@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .center{
@@ -44,8 +44,6 @@
 }
 
 .fa-football{
-  width: 20px;
-  height: 20px;
   font-size: 30px;
   transform: rotate(135deg);
   color: red;
@@ -78,7 +76,10 @@
 /* hederis qvemot */
 
 
-
+.newscard9{
+  grid-template-columns: repeat(9.1fr);
+  grid-template-rows: repeat(22.1fr);
+}
 
 .edit{
     align-items: center;
@@ -126,10 +127,14 @@
 /* mesame nawili */
 
 .iconebi {
- display: flex;
- gap: 2rem;
- margin-left: 35rem;
- justify-content: start;
+
+ display: flex; 
+ font-size: 50px;
+ gap:2em;
+ margin-left: 10em;
+ padding-top: 2rem;
+
+ 
 }
 
 
@@ -139,8 +144,10 @@
 
 .pirveli a:hover {
  color: red;
+
   
 }
+
 
 
 
@@ -148,38 +155,40 @@
 .fa-solid{
     text-decoration: none;
     color: black;
-    margin-left: 15rem;
+    font-size: 20px;
 }
+
 
                                                                       
 
 .pirveli{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 
 }
 
 .meore{
     text-decoration: none;
     color: black;
-
+    font-size: 20px;
 }
 
 .mesame{
     text-decoration: none;
     color: black;
-
+    font-size: 20px; 
 }
 
 .meoTxe{
     text-decoration: none;
-
+    font-size: 20px;
     color: black;
 }
 
 .mexute{
     text-decoration: none;
-
+    font-size: 20px;
     color: black;
 }
 
@@ -220,13 +229,256 @@
 /* cardebi */
 
 
+.div-card{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(18, 1fr);
+  
+  
+}
+
+/* pirveli cardi  */
+
 .card1{
+    display: grid;
+    grid-template-columns: repeat(4.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 3/3; 
+    grid-row: 1/3; 
+    padding-top: 5rem;
+     
+} 
+
+
+
+
+.frist213{
+    height: 300px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+
+
+
+
+/* meore cardi */
+
+
+.card2{
     display: grid;
     grid-template-columns: repeat(2.1fr);
     width: 350px;
     height: 320px;
+    grid-column: 3/3; 
+    grid-row: 3/5;
+    padding-top: 14rem;
+    
 }
 
+.frist213bbnbn{
+  height: 200px;
+  width: 350px;
+}
+
+.frist213{
+    height: 300px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+
+ /* mesame qardi*/ 
+
+.card3{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 3/3; 
+    grid-row: 5/7;
+    padding-top: 12rem;
+
+}
+
+.frist213bb{
+  height: 200px;
+  width: 350px;
+}
+
+.frist213{
+    height: 300px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+/* meoTxe qardi  */
+
+.card4{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 3/3; 
+    grid-row: 7/9;
+    padding-top: 12rem;
+    
+}
+.frist213zz{
+  height: 200px;
+  width: 350px;
+}
 
 
 .frist213{
@@ -285,4 +537,527 @@
   color: red;
 }
 
-.9-div-card{}
+/* mexuTe qardi */
+
+.card5{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 3/3; 
+    grid-row: 9/11;
+    padding-top: 12rem;
+    
+}
+.frist213hh{
+  height: 200px;
+  width: 350px;
+}
+
+
+.frist213{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+/* meeqvse qardi */
+
+.card6{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 4/4; 
+    grid-row:1/3;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    
+}
+
+
+.frist213{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+/* mesvide qardi */
+
+.card7{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 4/4; 
+    grid-row: 3/5;
+    padding-top: 14rem;
+    padding-left: 2rem;
+}
+
+.frist213mm{
+  height: 250px;
+  width: 350px;
+}
+
+
+.frist213{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+
+/* merve qardi  */
+
+.card8{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 4/4; 
+    grid-row: 5/7;
+    padding-top: 14rem;
+    padding-left: 2rem;
+}
+.frist213pp{
+  height: 250px;
+  width: 350px;
+}
+
+
+.frist213{
+    height: 350px;
+    width: 350px;
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+/* mecxre qardi */
+
+.card9{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 350px;
+    height: 320px;
+    grid-column: 4/4; 
+    grid-row: 7/9;
+    padding-top: 14rem;
+    padding-left: 2rem;
+}
+
+.frist213rr{
+  height: 250px;
+  width: 330px;
+}
+
+
+.frist213{
+    grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.crows-win123{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+}
+
+
+.asd21{
+    gap: 5px;
+}
+
+
+.blog{
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.stats{
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.heartys{
+  color: red;
+}
+
+/* dasasasvleli cardebis dasawyisi */
+
+/* features cardi */
+
+
+.card3fgdgsffds1321321 {
+padding-left: 30rem;
+padding-top: 5rem;
+width: 300px;
+}
+
+/* editorials cardi  */
+
+.div-card12{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 30px;
+  padding-left: 30rem;
+  padding-top: 5rem;
+}
+
+ .card1edu{
+  grid-column:1/1;
+  grid-row: 1/2;
+  height: 350px;
+
+ }
+
+ .card8aa{
+  grid-column: 1/1;
+  grid-row: 2/3;
+  height: 350px;
+  padding-top: 1rem;
+ 
+
+ }
+
+ .card9ss{
+  grid-column: 1/1;
+  grid-row: 3/4; 
+  padding-top: 4rem;
+ 
+ }
+
+ .card2qq{
+  grid-column: 2/2;
+  height:200px;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  
+ }
+
+ .card7cc{
+ grid-column: 2/2;
+ padding-bottom: 10rem;
+ padding-left: 5rem;
+
+
+ }
+
+ .card4bb{
+ grid-column: 2/2;
+ padding-left: 5rem;
+
+ }
+
+ .card7vv{
+ grid-column: 2/2;
+ padding-left: 5rem;
+ }
+
+
+
+ /* rumoris cardebi */
+
+.rumor-card1{
+  padding-top: 5rem;
+}
+ 
+.rumor-card3{
+  margin-left: 56rem;
+}
+
+
+.rumors-cards-main{
+  display: flex;
+  margin-left: 30rem;
+  gap: 4rem;
+}
+
+/* game cardebi */
+
+.div-card11{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);  
+  margin: 0 auto; 
+  
+  padding-top: 20px;
+}
+
+.xzc312{
+  grid-column: 3/4;
+}
+
+.as10P{
+  grid-column: 2/3;
+}
+
+.SD21{
+  grid-column: 2/2;
+}
+
+.nmnmnm{
+  width: 5px;
+}
+
+.D12{
+  width: 350px;
+}
+
+.vardy11{
+  max-width: 350px;
+}
+
+
+.b12{
+   width: 350px;
+}
+
+
+.A12{
+   width: 350px;
+}
+
+.C12{
+  width: 350px;
+}
+
+
+.card11{
+width: 750px;
+}
+.card22{
+ width: 750px;
+} 
+
+.card33{
+width: 750px;
+
+}
+
+.card44{
+width: 750px;
+}

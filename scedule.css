@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  gap: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.center a {
+  text-decoration: none;
+  color: gray;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 20px;
+}
+
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  color: black;
+  font-size: 20px;
+}
+
+.fa-football {
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  transform: rotate(135deg);
+  color: red;
+}
+
+.atag4 {
+  margin-right: 10px;
+}
+
+
+.login {
+  border: 0;
+  height: 20px;
+  background-color: white;
+}
+
+
+
+.center {
+  color: red;
+  transition: color 0.3s;
+}
+
+.center a:hover {
+  color: red;
+}
+
+
+
+.firstbackground {
+  background-image: url(./scedulephoto/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27rem;
+  width: 100%;
+}
+
+
+
+
+.newscard9 {
+  grid-template-columns: repeat(9.1fr);
+  grid-template-rows: repeat(22.1fr);
+}
+
+.edit {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 5rem;
+}
+
+.line {
+  border: 1px orangered solid;
+  width: 77px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 57rem;
+}
+
+.latest {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  padding-top: 5rem;
+}
+
+.news {
+  color: orangered;
+}
+
+
+.paragraph {
+  font-weight: bolder;
+  font-style: normal;
+  padding-top: 1rem;
+} 
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+.game-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30px 0;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown input[type="checkbox"] {
+  display: none;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #000;
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdown input[type="checkbox"]:checked~.game-header .triangle {
+  transform: rotate(0deg);
+}
+
+.date {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  min-width: 100px;
+}
+
+.game-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
+
+.location {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.buy-btn {
+  background-color: #ff3d00;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 0;
+  margin-left: 37rem;
+}
+
+.btnntb2 {
+  margin-left: 40rem;
+}
+
+
+.btnntb4 {
+  margin-left: 40rem;
+}
+
+
+
+.buy-btn:hover {
+  background-color: #e63900;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  margin-top: 15px;
+  padding-left: 125px;
+}
+
+.dropdown input[type="checkbox"]:checked~.dropdown-content {
+  max-height: 200px;
+}
+
+.dropdown-content p {
+  padding: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
