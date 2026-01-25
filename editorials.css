@@ -1,0 +1,495 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 30px;
+}
+
+.center {
+  display: flex;
+  gap: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.center a {
+  text-decoration: none;
+  color: gray;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 20px;
+}
+
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  color: black;
+  font-size: 20px;
+}
+
+.fa-football {
+  font-size: 30px;
+  transform: rotate(135deg);
+  color: red;
+}
+
+.atag4 {
+  margin-right: 10px;
+}
+
+
+.login {
+  border: 0;
+  height: 20px;
+  background-color: white;
+}
+
+
+
+.center {
+  color: red;
+  transition: color 0.3s;
+}
+
+.center a:hover {
+  color: red;
+}
+
+
+.newscard9 {
+  grid-template-columns: repeat(9.1fr);
+  grid-template-rows: repeat(22.1fr);
+}
+
+.edit {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.firstbackground {
+  background-image: url(./blogphotos/blogfirst.avif);
+  height: 20rem;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.line {
+  border: 1px orangered solid;
+  width: 77px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 57rem;
+}
+
+.latest {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  padding-top: 5rem;
+}
+
+.news {
+  color: orangered;
+}
+
+
+.paragraph {
+  font-weight: bolder;
+  font-style: normal;
+  padding-top: 1rem;
+}
+
+
+.asd123 {
+  background-image: url(./blogphotos/blogfirst.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.iconebi {
+
+  display: flex;
+  font-size: 50px;
+  gap: 2em;
+  margin-left: 10em;
+  padding-top: 2rem;
+
+
+}
+
+
+.marign {
+  gap: 2rem;
+}
+
+.pirveli a:hover {
+  color: red;
+
+
+}
+
+
+
+
+
+.fa-solid {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+.pirveli {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+}
+
+.meore {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.mesame {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.meoTxe {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.mexute {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+
+.fa-solid:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+
+.pirveli:hover {
+  color: rgb(255, 0, 0);
+}
+
+.meore:hover {
+  color: rgb(255, 0, 0);
+}
+
+.mesame:hover {
+  color: rgb(255, 0, 0);
+}
+
+.meoTxe:hover {
+  color: rgb(255, 0, 0);
+}
+
+.mexute:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+
+.div-card12 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 30px;
+  padding-left: 30rem;
+  padding-top: 5rem;
+}
+
+.card1edu {
+  grid-column: 1/1;
+  grid-row: 1/2;
+  height: 350px;
+
+}
+
+.card8aa {
+  grid-column: 1/1;
+  grid-row: 2/3;
+  height: 350px;
+  padding-top: 1rem;
+
+
+}
+
+.card9ss {
+  grid-column: 1/1;
+  grid-row: 3/4;
+  padding-top: 4rem;
+
+}
+
+.card2qq {
+  grid-column: 2/2;
+  height: 200px;
+  padding-left: 5rem;
+  padding-top: 5rem;
+
+}
+
+.card7cc {
+  grid-column: 2/2;
+  padding-bottom: 10rem;
+  padding-left: 5rem;
+
+
+}
+
+.card4bb {
+  grid-column: 2/2;
+  padding-left: 5rem;
+
+}
+
+.card7vv {
+  grid-column: 2/2;
+  padding-left: 5rem;
+}
+
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 24px;
+  }
+
+  .center {
+    gap: 2rem;
+    font-size: 16px;
+  }
+
+  .logos {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    font-size: 16px;
+  }
+
+  .latest {
+    font-size: 40px;
+    padding-top: 3rem;
+  }
+
+  .iconebi {
+    margin-left: 2em;
+    gap: 1em;
+    font-size: 40px;
+    flex-wrap: wrap;
+  }
+
+  .div-card12 {
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+
+  .card2qq,
+  .card7cc,
+  .card4bb,
+  .card7vv {
+    padding-left: 2rem;
+  }
+}
+
+/* Mobile landscape and below (max-width: 768px) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    font-size: 20px;
+  }
+
+  .center {
+    margin-left: 0;
+    gap: 1rem;
+    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-icons {
+    gap: 0.5rem;
+    font-size: 18px;
+  }
+
+  .firstbackground {
+    height: 15rem;
+  }
+
+  .latest {
+    font-size: 32px;
+    padding-top: 2rem;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .iconebi {
+    font-size: 30px;
+    margin-left: 1em;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pirveli,
+  .meore,
+  .mesame,
+  .meoTxe,
+  .mexute {
+    font-size: 16px;
+  }
+
+  .div-card12 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: auto;
+  }
+
+  .card1edu,
+  .card8aa,
+  .card9ss,
+  .card2qq,
+  .card7cc,
+  .card4bb,
+  .card7vv {
+    grid-column: 1;
+    padding-left: 0;
+    padding-top: 2rem;
+    height: auto;
+  }
+
+  .card1edu {
+    grid-row: 1;
+  }
+
+  .card8aa {
+    grid-row: 2;
+  }
+
+  .card9ss {
+    grid-row: 3;
+  }
+
+  .card2qq {
+    grid-row: 4;
+  }
+
+  .card7cc {
+    grid-row: 5;
+    padding-bottom: 2rem;
+  }
+
+  .card4bb {
+    grid-row: 6;
+  }
+
+  .card7vv {
+    grid-row: 7;
+  }
+}
+
+/* Mobile portrait (max-width: 480px) */
+@media (max-width: 480px) {
+  .header {
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .fa-football {
+    font-size: 24px;
+  }
+
+  .center {
+    gap: 0.5rem;
+    font-size: 12px;
+  }
+
+  .latest {
+    font-size: 24px;
+    padding-top: 1.5rem;
+  }
+
+  .firstbackground {
+    height: 12rem;
+  }
+
+  .iconebi {
+    font-size: 24px;
+    margin-left: 0.5em;
+  }
+
+  .pirveli,
+  .meore,
+  .mesame,
+  .meoTxe,
+  .mexute {
+    font-size: 14px;
+  }
+
+  .div-card12 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

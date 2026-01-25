@@ -1,5 +1,4 @@
-
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,12 +6,12 @@
   font-size: 30px;
 }
 
-.center{
+.center {
   display: flex;
-  gap: 5rem;  
+  gap: 5rem;
   font-size: 20px;
   font-weight: bold;
-   margin-left: auto;
+  margin-left: auto;
 }
 
 .center a {
@@ -20,7 +19,7 @@
   color: gray;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -28,7 +27,7 @@
 }
 
 
-.logos{
+.logos {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -36,24 +35,25 @@
 }
 
 
-.social-icons{
+.social-icons {
   display: flex;
   gap: 1rem;
   color: black;
   font-size: 20px;
 }
 
-.fa-football{
+.fa-football {
   font-size: 30px;
   transform: rotate(135deg);
   color: red;
 }
-.atag4{
+
+.atag4 {
   margin-right: 10px;
 }
 
 
-.login{
+.login {
   border: 0;
   height: 20px;
   background-color: white;
@@ -61,12 +61,12 @@
 
 
 
-.center{
+.center {
   color: red;
   transition: color 0.3s;
 }
 
-.center a:hover{
+.center a:hover {
   color: red;
 }
 
@@ -76,147 +76,147 @@
 /* hederis qvemot */
 
 
-.newscard9{
+.newscard9 {
   grid-template-columns: repeat(9.1fr);
   grid-template-rows: repeat(22.1fr);
 }
 
-.edit{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: rgb(255, 255, 255);
+.edit {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
 
 }
 
 
-.firstbackground{
-    background-image: url(./blogphotos/blogfirst.avif) ;
-    height: 20rem;
-    width: 100%;
-    background-repeat: no-repeat;
+.firstbackground {
+  background-image: url(./blogphotos/blogfirst.avif);
+  height: 20rem;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 
 .line {
-    border: 1px orangered solid;
-    width: 77px; 
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-left: 57rem;
+  border: 1px orangered solid;
+  width: 77px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 57rem;
 }
 
 .latest {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    padding-top: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  padding-top: 5rem;
 }
 
-.news{
-    color: orangered;
+.news {
+  color: orangered;
 }
 
 
-.paragraph{
-    font-weight: bolder;
-    font-style: normal;
-    padding-top: 1rem;
+.paragraph {
+  font-weight: bolder;
+  font-style: normal;
+  padding-top: 1rem;
 }
 
 /* mesame nawili */
 
 .iconebi {
 
- display: flex; 
- font-size: 50px;
- gap:2em;
- margin-left: 10em;
- padding-top: 2rem;
+  display: flex;
+  font-size: 50px;
+  gap: 2em;
+  margin-left: 10em;
+  padding-top: 2rem;
 
- 
+
 }
 
 
-.marign{
-    gap: 2rem;
+.marign {
+  gap: 2rem;
 }
 
 .pirveli a:hover {
- color: red;
+  color: red;
 
-  
+
 }
 
 
 
 
 
-.fa-solid{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+.fa-solid {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 
-                                                                      
 
-.pirveli{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+
+.pirveli {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 
 }
 
-.meore{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+.meore {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
-.mesame{
-    text-decoration: none;
-    color: black;
-    font-size: 20px; 
+.mesame {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
-.meoTxe{
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+.meoTxe {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
-.mexute{
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+.mexute {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
 
-.fa-solid:hover{
-    color: rgb(255, 0, 0);
+.fa-solid:hover {
+  color: rgb(255, 0, 0);
 }
 
-                                                                      
 
-.pirveli:hover{
-    color: rgb(255, 0, 0);
+
+.pirveli:hover {
+  color: rgb(255, 0, 0);
 }
 
-.meore:hover{
-    color: rgb(255, 0, 0);
+.meore:hover {
+  color: rgb(255, 0, 0);
 }
 
-.mesame:hover{
-    color: rgb(255, 0, 0);
+.mesame:hover {
+  color: rgb(255, 0, 0);
 }
 
-.meoTxe:hover{
-    color: rgb(255, 0, 0);
+.meoTxe:hover {
+  color: rgb(255, 0, 0);
 }
 
-.mexute:hover{
-    color: rgb(255, 0, 0);
+.mexute:hover {
+  color: rgb(255, 0, 0);
 }
 
 
@@ -229,40 +229,40 @@
 /* cardebi */
 
 
-.div-card{
+.div-card {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(18, 1fr);
-  
-  
+
+
 }
 
 /* pirveli cardi  */
 
-.card1{
-    display: grid;
-    grid-template-columns: repeat(4.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 3/3; 
-    grid-row: 1/3; 
-    padding-top: 5rem;
-     
-} 
+.card1 {
+  display: grid;
+  grid-template-columns: repeat(4.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 3/3;
+  grid-row: 1/3;
+  padding-top: 5rem;
 
-
-
-
-.frist213{
-    height: 300px;
-    width: 350px;
-    grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.frist213 {
+  height: 300px;
+  width: 350px;
+  grid-column: 1/2;
+}
+
+
+
+
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -270,7 +270,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -278,18 +278,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,7 +297,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -305,7 +305,7 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
@@ -316,32 +316,32 @@
 /* meore cardi */
 
 
-.card2{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 3/3; 
-    grid-row: 3/5;
-    padding-top: 14rem;
-    
+.card2 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 3/3;
+  grid-row: 3/5;
+  padding-top: 14rem;
+
 }
 
-.frist213bbnbn{
+.frist213bbnbn {
   height: 200px;
   width: 350px;
 }
 
-.frist213{
-    height: 300px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 300px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -349,7 +349,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -357,18 +357,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -376,7 +376,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -384,39 +384,39 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 
- /* mesame qardi*/ 
+/* mesame qardi*/
 
-.card3{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 3/3; 
-    grid-row: 5/7;
-    padding-top: 12rem;
+.card3 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 3/3;
+  grid-row: 5/7;
+  padding-top: 12rem;
 
 }
 
-.frist213bb{
+.frist213bb {
   height: 200px;
   width: 350px;
 }
 
-.frist213{
-    height: 300px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 300px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -424,7 +424,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -432,18 +432,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -451,7 +451,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -459,38 +459,39 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 /* meoTxe qardi  */
 
-.card4{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 3/3; 
-    grid-row: 7/9;
-    padding-top: 12rem;
-    
+.card4 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 3/3;
+  grid-row: 7/9;
+  padding-top: 12rem;
+
 }
-.frist213zz{
+
+.frist213zz {
   height: 200px;
   width: 350px;
 }
 
 
-.frist213{
-    height: 350px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 350px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -498,7 +499,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -506,18 +507,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -525,7 +526,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -533,38 +534,39 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 /* mexuTe qardi */
 
-.card5{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 3/3; 
-    grid-row: 9/11;
-    padding-top: 12rem;
-    
+.card5 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 3/3;
+  grid-row: 9/11;
+  padding-top: 12rem;
+
 }
-.frist213hh{
+
+.frist213hh {
   height: 200px;
   width: 350px;
 }
 
 
-.frist213{
-    height: 350px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 350px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -572,7 +574,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -580,18 +582,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -599,7 +601,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -607,35 +609,35 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 /* meeqvse qardi */
 
-.card6{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 4/4; 
-    grid-row:1/3;
-    padding-top: 5rem;
-    padding-left: 2rem;
-    
+.card6 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 4/4;
+  grid-row: 1/3;
+  padding-top: 5rem;
+  padding-left: 2rem;
+
 }
 
 
-.frist213{
-    height: 350px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 350px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -643,7 +645,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -651,18 +653,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -670,7 +672,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -678,39 +680,39 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 /* mesvide qardi */
 
-.card7{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 4/4; 
-    grid-row: 3/5;
-    padding-top: 14rem;
-    padding-left: 2rem;
+.card7 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 4/4;
+  grid-row: 3/5;
+  padding-top: 14rem;
+  padding-left: 2rem;
 }
 
-.frist213mm{
+.frist213mm {
   height: 250px;
   width: 350px;
 }
 
 
-.frist213{
-    height: 350px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 350px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -718,7 +720,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -726,18 +728,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -745,7 +747,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -753,39 +755,40 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 
 /* merve qardi  */
 
-.card8{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 4/4; 
-    grid-row: 5/7;
-    padding-top: 14rem;
-    padding-left: 2rem;
+.card8 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 4/4;
+  grid-row: 5/7;
+  padding-top: 14rem;
+  padding-left: 2rem;
 }
-.frist213pp{
+
+.frist213pp {
   height: 250px;
   width: 350px;
 }
 
 
-.frist213{
-    height: 350px;
-    width: 350px;
-    grid-column: 1/2;
+.frist213 {
+  height: 350px;
+  width: 350px;
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -793,7 +796,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -801,18 +804,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -820,7 +823,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -828,37 +831,37 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
 /* mecxre qardi */
 
-.card9{
-    display: grid;
-    grid-template-columns: repeat(2.1fr);
-    width: 350px;
-    height: 320px;
-    grid-column: 4/4; 
-    grid-row: 7/9;
-    padding-top: 14rem;
-    padding-left: 2rem;
+.card9 {
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  width: 350px;
+  height: 320px;
+  grid-column: 4/4;
+  grid-row: 7/9;
+  padding-top: 14rem;
+  padding-left: 2rem;
 }
 
-.frist213rr{
+.frist213rr {
   height: 250px;
   width: 330px;
 }
 
 
-.frist213{
-    grid-column: 1/2;
+.frist213 {
+  grid-column: 1/2;
 }
 
 
 
 
-.suratisqvemot{
+.suratisqvemot {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -866,7 +869,7 @@
 }
 
 
-.crows-win123{
+.crows-win123 {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -874,18 +877,18 @@
 }
 
 
-.asd21{
-    gap: 5px;
+.asd21 {
+  gap: 5px;
 }
 
 
-.blog{
+.blog {
   color: black;
   margin-bottom: 20px;
 }
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -893,7 +896,7 @@
   border-top: 1px solid black;
 }
 
-.stats{
+.stats {
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -901,163 +904,144 @@
 }
 
 
-.heartys{
+.heartys {
   color: red;
 }
 
-/* dasasasvleli cardebis dasawyisi */
+@media (max-width: 1024px) {
+  .div-card {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1.5rem;
+  }
 
-/* features cardi */
+  .latest {
+    font-size: 40px;
+  }
 
-
-.card3fgdgsffds1321321 {
-padding-left: 30rem;
-padding-top: 5rem;
-width: 300px;
+  .iconebi {
+    gap: 1.5em;
+    font-size: 18px;
+  }
 }
 
-/* editorials cardi  */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
 
-.div-card12{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(4, 1fr);
-  width: 30px;
-  padding-left: 30rem;
-  padding-top: 5rem;
+  .center {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .center.active {
+    right: 0;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .firstbackground {
+    height: 15rem;
+  }
+
+  .latest {
+    font-size: 32px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .iconebi {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .div-card {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .crows-win123 {
+    font-size: 20px;
+  }
 }
 
- .card1edu{
-  grid-column:1/1;
-  grid-row: 1/2;
-  height: 350px;
+@media (max-width: 480px) {
+  .header {
+    padding: 1rem;
+  }
 
- }
+  .logo {
+    font-size: 16px;
+  }
 
- .card8aa{
-  grid-column: 1/1;
-  grid-row: 2/3;
-  height: 350px;
-  padding-top: 1rem;
- 
+  .fa-football {
+    font-size: 24px;
+  }
 
- }
+  .firstbackground {
+    height: 12rem;
+  }
 
- .card9ss{
-  grid-column: 1/1;
-  grid-row: 3/4; 
-  padding-top: 4rem;
- 
- }
+  .latest {
+    font-size: 24px;
+  }
 
- .card2qq{
-  grid-column: 2/2;
-  height:200px;
-  padding-left: 5rem;
-  padding-top: 5rem;
-  
- }
+  .paragraph {
+    font-size: 12px;
+  }
 
- .card7cc{
- grid-column: 2/2;
- padding-bottom: 10rem;
- padding-left: 5rem;
+  .iconebi a {
+    font-size: 16px;
+  }
 
+  .div-card {
+    gap: 1rem;
+  }
 
- }
+  .suratisqvemot {
+    padding: 1rem;
+  }
 
- .card4bb{
- grid-column: 2/2;
- padding-left: 5rem;
+  .crows-win123 {
+    font-size: 18px;
+  }
 
- }
-
- .card7vv{
- grid-column: 2/2;
- padding-left: 5rem;
- }
-
-
-
- /* rumoris cardebi */
-
-.rumor-card1{
-  padding-top: 5rem;
-}
- 
-.rumor-card3{
-  margin-left: 56rem;
+  .suratisqvemot>p {
+    font-size: 14px;
+  }
 }
 
+@media (max-width: 350px) {
+  .div-card {
+    grid-template-columns: 1fr;
+  }
 
-.rumors-cards-main{
-  display: flex;
-  margin-left: 30rem;
-  gap: 4rem;
-}
-
-/* game cardebi */
-
-.div-card11{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);  
-  margin: 0 auto; 
-  
-  padding-top: 20px;
-}
-
-.xzc312{
-  grid-column: 3/4;
-}
-
-.as10P{
-  grid-column: 2/3;
-}
-
-.SD21{
-  grid-column: 2/2;
-}
-
-.nmnmnm{
-  width: 5px;
-}
-
-.D12{
-  width: 350px;
-}
-
-.vardy11{
-  max-width: 350px;
-}
-
-
-.b12{
-   width: 350px;
-}
-
-
-.A12{
-   width: 350px;
-}
-
-.C12{
-  width: 350px;
-}
-
-
-.card11{
-width: 750px;
-}
-.card22{
- width: 750px;
-} 
-
-.card33{
-width: 750px;
-
-}
-
-.card44{
-width: 750px;
+  .surati img,
+  .frist213,
+  .frist213bbnbn,
+  .frist213bb,
+  .frist213zz,
+  .frist213hh,
+  .frist213mm,
+  .frist213pp,
+  .frist213rr {
+    height: 200px;
+  }
 }
